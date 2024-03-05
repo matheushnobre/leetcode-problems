@@ -6,8 +6,8 @@ class Solution:
         rtype: List[int]
         '''
         map = {}
-        for index, i in enumerate(nums):
-            if target - i in map:
-                return map[target-i], index
+        for index, value in enumerate(nums):
+            if target - value in map:
+                return map[target-value], index
             else:
-                map[i] = index
+                map[value] = index

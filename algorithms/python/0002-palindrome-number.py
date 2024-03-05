@@ -6,4 +6,4 @@ class Solution:
         return True if str_x == str_y else False
     
 # Solution with just one line. By others users of LeetCode:
-# print(str(x) == str(x)[::-1])
+# return str(x) == str(x)[::-1]
