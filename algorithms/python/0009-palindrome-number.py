@@ -5,5 +5,5 @@ class Solution:
             str_y += str_x[-(i+1)]
         return True if str_x == str_y else False
     
-# Solution with just one line. By others users of LeetCode:
+# Solution with just one line by others users of LeetCode:
 # return str(x) == str(x)[::-1]
